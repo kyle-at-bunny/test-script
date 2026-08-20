@@ -1,4 +1,4 @@
-import * as BunnySDK from "https://esm.sh/@bunny.net/edgescript-sdk@0.12.0";
+import * as BunnySDK from "@bunny.net/edgescript-sdk";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
